@@ -40,7 +40,7 @@ export default function Header() {
         <nav className="navigation">
           {arr.map((value, position) => (
             <Link
-              color="success"
+              color="primary" // Change color to light blue
               variant="solid"
               key={position}
               name={value}
